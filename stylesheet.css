@@ -1,0 +1,205 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #FFF1E6;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .section {
+    color: #6D6875;
+    padding: 10px;
+  }
+  
+  .section.blue {
+    background-color: #FFF1E6;
+  }
+  
+  .section.blue p {
+    color: #A5A58D;
+  }
+  
+  .section.peach {
+    background-color: #FFDDD2;
+
+  }
+
+  .section.peach h2 {
+    color: #006D77
+  }
+  
+  .section.peach p {
+    color: #006D77;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #6D6875;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #4b84a3;
+    color: #A5A58D;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4c77af;
+    color: white;
+  }
+
+  .topnav img {
+      width: 30px;
+      height: 30px;
+  }
+
+  .section.blue img {
+    flex-direction: row-reverse;
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+  }  
+
+  .section.peach img {
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+  }
+
+  h1 {
+    font-family: myFirstFont;
+    src: url(Montserrat/Montserrat-Light.ttf);
+  }
+
+  h2 {
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+
+  p {
+    font-family: myFirstFont;
+    src: url(Montserrat/Montserrat-Light.ttf);
+    
+  }
+    
+  
+    @font-face {
+      font-family: myFirstFont;
+      src: url(Montserrat/Montserrat-Light.ttf);
+      font-weight: regular;
+    }
+
+    .maincontainer1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .AboutMe {
+      background-color: #FFF1E6;
+      padding: 10px;
+      display: flex;
+    }
+
+    .AboutMe h1 {
+      color: #A5A58D;
+    }
+    
+    .AboutMe h2 {
+      color: #A5A58D
+    }
+
+    .aboutmetext {
+      color: #A5A58D;
+      background-color: #FFF1E6;
+      padding: 5%;
+      flex: 50%;
+      flex-direction: row;
+    }
+    
+    .victoriaimg {
+      color: #006d77;
+      background-color: #FFF1E6;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .victoriaimg img{
+      width: 500px;
+      height: 500px;
+      padding: 5%;
+
+    }
+
+    .text {
+      padding-left: 3%;
+      padding-top: 2%;
+      align-items: center;
+      background-color: #FFF1E6;
+      color: #6D6875;
+    }
+
+    .secondcontainer {
+      background-color: #FFF1E6;
+      display: flex;
+      flex-direction: row;
+      padding: 5%;
+    }
+
+    .work {
+      background-color: white;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 500px;
+      background-color: #FFF1E6;
+    }
+    
+    .sufkimg {
+      position: relative;
+      color: #006d77;
+      background-color: #FFF1E6;
+      width: 33%;
+    }
+
+    .sufkimg img{
+      height: 100%;
+      padding-right: 33%;
+    }
+
+    .darkspot {
+      position: relative;
+      color: #006d77;
+      background-color: #FFF1E6;
+      width: 33%;
+    }
+
+    .darkspot img {
+      height: 100%;
+      padding-left: 33%;
+    }
+
+    .LoanEdu {
+      position: relative;
+      color: #006d77;
+      background-color: #FFF1E6;
+      width: 33%;
+    }
+
+    .LoanEdu img{
+      height: 100%;
+      padding-left: 10%;
+      padding-top: 3%;
+    }
+    
+
+    
+    
+    
